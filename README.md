@@ -1,0 +1,2 @@
+# Requester
+NUCOSen LIVEに関連したウェブサイトです。niconicoの動画からリクエストを受け付け、RESTfulなAPIに投げます。JWTで認証を行います。
