@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja" data-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Minstyle IO CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/minstyle.io@2.0.1/dist/css/minstyle.io.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/minstyle.io.css">
+    <link rel="stylesheet" href="css/nucosen.css">
+
+    <!-- Custom JS -->
+    <script src="js/input.js" defer></script>
+    <!-- NOTE : Load this at last ! -->
+    <script id="ns-request-js" src="js/request.js" defer></script>
+    <title>NUCOSen Requester</title>
+</head>
+
+<body>
+    <div id="ns-progress" class="ms-progress ms-light">
+        <div id="ns-progress-fill" class="ms-progress-fill ms-primary" style="width: 100%"></div>
+    </div>
+
+    <div class="ms-card">
+        <div class="ms-text-center">「同人音楽のトレンドをほぼ最速でキャッチできる生放送」<br />24時間ほとんど年中無休で放送中</div>
+    </div>
+
+    <div class="ms-hero ms-half-screen">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-md-6">
+                <img src="img/NUCOSen_logo_L.png" alt="NUCOSen" srcset="" width="100%" data-theme="dark">
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="ms-card">
+        <div class="ms-text-center">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-md-8">
+                    <div class="ms-form-group" style="width: 100%;">
+                        <div class="ms-card"></div>
+                        <div class="row">
+                            <div class="col-11 col-md-8">
+                                <input id="ns-reqinput" type="text" class="ms-invert-color ms-large" placeholder="あなたの「推し曲」を教えてください（sm〇〇）" />
+                            </div>
+                            <div class="col-11 col-md-4">
+                                <button id="ns-reqbtn" type="button" class="ms-btn ms-action2 ms-large ms-disabled"><div class="ms-loading"></div></button>
+                            </div>
+                        </div>
+                        <span id="ns-reqinfo" class="ms-under-input ms-text-green"></span>
+                        <span id="ns-reqerror" class="ms-under-input ms-text-red"></span>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="ms-footer">
+        <div class="container">
+            <p>Copyright 2022 <b>NUCOSen Management Committee</b>（NUCOSen運営会議）</p>
+            <p class="ms-text-light">「VOCALOID（ボーカロイド）」および「ボカロ」はヤマハ株式会社の登録商標です。<br />NUCOSenはコンテンツの一部に東方Projectの二次創作を含みます。</p>
+            <p class="ms-text-light">その他、記載されている会社名、システム名、製品名は一般に各社の登録商標または商標です。<br />商標記号および登録商標記号は省略しております。</p>
+        </div>
+    </footer>
+</body>
+
+</html>
